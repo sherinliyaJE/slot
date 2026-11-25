@@ -1,5 +1,5 @@
 # Ex04 Time Table
-## Date:
+## Date:19/11/2026
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -27,6 +27,7 @@ Add your course schedule using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
 <html>
     <head>
         <title>Time Table</title>
@@ -47,7 +48,7 @@ Execute the program using runserver command.
         </tr>
 
         <tr align="center">
-            <td bgcolor="lightgrey"> 08:00-09:30 </td>
+            <td bgcolor="lightpink"> 8:00-9:30 </td>
             <td> DE </td>
             <td> EDM </td>
             <td> FWAD </td>
@@ -57,7 +58,7 @@ Execute the program using runserver command.
         </tr>
         
         <tr align="center">
-            <td bgcolor="lightgrey"> 09:30-11:15 </td>
+            <td bgcolor="lightpink"> 9:30-11:15 </td>
             <td> FWAD </td>
             <td> EDM </td>
             <td> Free slot </td>
@@ -67,17 +68,17 @@ Execute the program using runserver command.
         </tr>
 
         <tr>
-            <td bgcolor="lightgrey"> 11:30-12:15 </td>
+            <td bgcolor="lightpink"> 11:30-12:15 </td>
             <td colspan="6" align="center"> Mentor Meet or Event </td>
         </tr>
 
          <tr>
-            <td bgcolor="lightgrey"> 12:15-01.15 </td>
+            <td bgcolor="lightpink"> 12:15-01.15 </td>
             <td colspan="6" align="center"> Lunch Break </td>
         </tr>
 
         <tr align="center">
-            <td bgcolor="lightgrey"> 01.15-02.44 </td>
+            <td bgcolor="lightpink"> 01.15-02.44 </td>
             <td> Free Slot </td>
             <td> FWAD </td>
             <td> Free Slot </td>
@@ -86,7 +87,7 @@ Execute the program using runserver command.
         </tr>
 
         <tr align="center">
-            <td bgcolor="lightgrey"> 03:00-04:30 </td>
+            <td bgcolor="lightpink"> 03:00-04:30 </td>
             <td colspan="2" align="center"> Free Slot </td>
             <td> PP </td>
             <td> Free slot </td>
@@ -96,9 +97,9 @@ Execute the program using runserver command.
 
      </table><br><br>
      <table align="center" border="1" cellspacing="2" cellpading="12">
-      <caption align="center" style="font-family:'Times New Roman', Times, serif; font: size 45px;"><b>SLOT TIME TABLE - Aswini K V[26011289]</b></caption>
+      <caption align="center" style="font-family:'Times New Roman', Times, serif; font: size 45px;"><b>SLOT TIME TABLE - Sherin liya J.E[26019443]</b></caption>
 
-     <tr bgcolor="lightblue" align="center">
+     <tr bgcolor="lightgreen" align="center">
         <td> S.No </td>
         <td> Subject Code </td>
         <td> Subject Name </td>
@@ -133,7 +134,7 @@ Execute the program using runserver command.
      </table>
     </body>
 </html>
-
+```
 ## OUTPUT
 ![alt text](<Screenshot (27).png>)
 
